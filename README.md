@@ -19,7 +19,7 @@ Add `otp_util` as a dependency in your `pubspec.yaml` file.
 
 ```yaml
 dependencies:
-  otp_util: ^1.0.1
+  otp_util: ^1.0.2
 ```
 
 ### Example

@@ -66,7 +66,7 @@ class TOTP extends OTP {
       return '';
     }
 
-    int _formatTime = Util.timeFormat(time: date!, interval: interval);
+    int _formatTime = Util.timeFormat(time: date, interval: interval);
     return super.generateOTP(input: _formatTime);
   }
 
