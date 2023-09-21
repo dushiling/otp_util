@@ -9,10 +9,8 @@ import 'package:otp_util/src/utils/algorithm_util.dart';
 import 'package:otp_util/src/utils/generic_util.dart';
 import 'package:otp_util/src/utils/otp_util.dart';
 
-
 import 'components/otp_algorithm.dart';
 import 'components/otp_type.dart';
-
 
 abstract class OTP {
   /// The length of the one-time password, between 6 and 8.
@@ -42,8 +40,6 @@ abstract class OTP {
       int digits = 6,
       OTPAlgorithm algorithm = OTPAlgorithm.SHA1})
       : assert(secret != null),
-        assert(digits != null),
-        assert(algorithm != null),
         assert(digits >= 6 && digits <= 8) {
     this.secret = secret!;
     this.digits = digits;

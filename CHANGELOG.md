@@ -1,3 +1,3 @@
-## 1.0.0
+## 1.0.1
 
-* First creation, providing TOPT and HOTP methods.
+* Improved description.

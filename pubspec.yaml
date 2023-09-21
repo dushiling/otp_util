@@ -1,6 +1,6 @@
 name: otp_util
-description: Implement TOPT and HOTP methods.
-version: 1.0.0
+description: otp_util is a dart package to generate and verify one-time passwords,it It provides two methods TOPT and HOTP.They are Time-based OTPs and Counter-based OTPs.
+version: 1.0.1
 homepage: https://github.com/dushiling
 repository: https://github.com/dushiling/otp_util
 

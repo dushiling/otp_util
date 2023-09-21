@@ -7,7 +7,6 @@ import 'components/otp_algorithm.dart';
 import 'components/otp_type.dart';
 import 'otp.dart';
 
-
 ///
 /// HOTP class will generate the OTP (One Time Password) object with given counter.
 class HOTP extends OTP {

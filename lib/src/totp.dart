@@ -3,20 +3,17 @@
 /// @author   : dushiling (dsl1197467923@gmail.com)
 ///
 
-
-
 import 'package:otp_util/src/utils/generic_util.dart';
 
 import 'components/otp_algorithm.dart';
 import 'otp.dart';
 import 'components/otp_type.dart';
 
-
 ///
 /// TOTP class will generate the OTP (One Time Password) object with the current or given time.
 class TOTP extends OTP {
   /// Period in which should be generated new tokens.
-  int interval=60;
+  int interval = 60;
 
   @override
   OTPType get type => OTPType.TOTP;
@@ -33,7 +30,7 @@ class TOTP extends OTP {
   /// Will throw an exception if the line above isn't satisfied.
   ///
   TOTP(
-      {String secret='',
+      {String secret = '',
       int digits = 6,
       int interval = 30,
       OTPAlgorithm algorithm = OTPAlgorithm.SHA1})
